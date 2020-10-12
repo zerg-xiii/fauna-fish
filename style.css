@@ -1,3 +1,22 @@
 main {
   font-size: 20px;
 }
+
+header {
+  width: 80%;
+  padding: 0 10%;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav div{
+  display: inline-block;
+}
+
+.lm {
+  width: 35%;
+}
+
+.lp {
+  width: 10%;
+}
