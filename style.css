@@ -31,21 +31,12 @@ body {
   padding: 0;
 }
 
-nav div A {
+nav div a:visited, .production a:visited, nav div A:active, .production a:active, nav div a, .production a {
   color: MidnightBlue;
   text-decoration: none;
-  /*text-shadow: 1px 1px 0 black;*/
 }
 
-nav div A:visited {
-  color: MidnightBlue;
-}
-
-nav div A:active {
-  color: MidnightBlue;
-}
-
-nav div A:hover {
+nav div A:hover, .production a:hover {
   color: SteelBlue;
 }
 
