@@ -1,22 +1,80 @@
 main {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 header {
-  width: 80%;
-  padding: 0 10%;
-  font-size: 20px;
+  width: 90%;
+  padding: 0 5%;
+  font-size: 18px;
   text-align: center;
+  padding-top: 10px;
 }
 
-nav div{
+nav div {
   display: inline-block;
+  padding: 0;
+  vertical-align: top;
 }
 
 .lm {
-  width: 35%;
+  width: 20%;
 }
 
 .lp {
-  width: 10%;
+  width: 19%;
+}
+
+body {
+  background: Gainsboro;
+  font-family: "Calibri", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav div A {
+  color: MidnightBlue;
+  text-decoration: none;
+  /*text-shadow: 1px 1px 0 black;*/
+}
+
+nav div A:visited {
+  color: MidnightBlue;
+}
+
+nav div A:active {
+  color: MidnightBlue;
+}
+
+nav div A:hover {
+  color: SteelBlue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 3px;
+  background: Gainsboro;
+  display: inline-block;
+  width: 49.8%;
+  height: 400px;
+  vertical-align: top;
+}
+
+.containerX {
+  margin-top: 3px;
+  display: inline-block;
+  width: 24.8%;
+  height: 400px;
+  vertical-align: top;
+}
+
+.production {
+  text-align: center;
+  background: White;
+}
+
+.production a {
+  text-decoration: none;
 }
