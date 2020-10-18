@@ -3,25 +3,52 @@ main {
 }
 
 header {
+  height: 170px;
   width: 90%;
-  padding: 0 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-size: 18px;
   text-align: center;
   padding-top: 10px;
 }
 
 nav div {
-  display: inline-block;
+  display: inline;
+  float: left;
   padding: 0;
   vertical-align: top;
 }
 
-.lm {
-  width: 20%;
+.logo {
+  position: absolute;
+  left: 32.5%;
+  width: 25%;
+  margin: 0 5%;
 }
 
-.lp {
-  width: 19%;
+.lp, .lx {
+  width: 33.33%;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    left: 41.25%;
+    width: 15%;
+  }
+
+  .lp {
+    width: 40%;
+  }
+
+  .lx {
+    width: 20%
+  }
+
+  nav div a {
+    display: inline;
+    float: left;
+    width: 50%;
+  }
 }
 
 body {
@@ -31,12 +58,12 @@ body {
   padding: 0;
 }
 
-nav div a:visited, .production a:visited, nav div A:active, .production a:active, nav div a, .production a {
+nav div a:visited, nav div A:active, nav div a {
   color: MidnightBlue;
   text-decoration: none;
 }
 
-nav div A:hover, .production a:hover {
+nav div A:hover {
   color: SteelBlue;
 }
 
@@ -44,28 +71,52 @@ h1 {
   text-align: center;
 }
 
-.container {
-  margin-top: 3px;
-  background: Gainsboro;
-  display: inline-block;
-  width: 49.8%;
-  height: 400px;
-  vertical-align: top;
-}
-
-.containerX {
-  margin-top: 3px;
-  display: inline-block;
-  width: 24.8%;
-  height: 400px;
-  vertical-align: top;
-}
-
-.production {
-  text-align: center;
+.product-wrapper-partition, .product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
   background: White;
 }
 
-.production a {
-  text-decoration: none;
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+  .product-wrapper-partition {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+
+.product, .product-partition {
+	display: block;
+	position: relative;
+	background: White;
+	margin: 0 15px 0 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 400px;
+}
+
+.product-partition{
+  background: Gainsboro;
+}
+
+.products{
+	list-style: none;
+	margin: 0 -15px 0 0;
+	padding: 0;
 }

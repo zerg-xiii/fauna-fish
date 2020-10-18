@@ -1,0 +1,66 @@
+main {
+  font-size: 16px;
+}
+
+header {
+  width: 90%;
+  padding: 0 5%;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+nav div {
+  display: inline;
+  float: left;
+  padding: 0;
+  vertical-align: top;
+}
+
+.logo {
+  position: absolute;
+  left: 35%;
+  width: 25%;
+  margin: 0 5%;
+}
+
+.lp, .lx {
+  width: 33.33%;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    left: 42.5%;
+    width: 15%;
+  }
+
+  .lp {
+    width: 40%;
+  }
+
+  .lx {
+    width: 20%
+  }
+
+  nav div a {
+    display: inline;
+    float: left;
+    width: 50%;
+  }
+}
+
+body {
+  background: Gainsboro;
+  font-family: "Calibri", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav div a:visited, nav div A:active, nav div a {
+  color: MidnightBlue;
+  text-decoration: none;
+}
+
+nav div A:hover {
+  color: SteelBlue;
+}
