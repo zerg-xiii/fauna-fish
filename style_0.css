@@ -74,6 +74,7 @@ h1 {
 	width: 100%;
   padding: 0;
   margin: 0;
+  margin-top: 10px;
 /*	float: left;
 */	transition: width .2s;
   background: White;
@@ -110,14 +111,58 @@ h1 {
   text-align: center;
 }
 
-.product-partition{
+.product-partition {
   background: Gainsboro;
+  height: 300px;
 }
 
-.products{
+.products, .products-partition {
 	list-style: none;
 	margin: 0 0 0 0;
   padding: 0 0 0 0;
   background: White;
   text-align: center;
+}
+
+.products{
+  padding-top: 40px;
+}
+
+.product-wrapper-partition img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.product-wrapper img {
+  width: 100%;
+  position: relative;
+/*  min-height: 100%;*/
+}
+
+.product p, .product-partition p {
+	position: relative;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 5.6em;
+	overflow: hidden;
+}
+
+.product p:after .product-partition p:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 4.2em;
+	height: 1.6em;
+	background: linear-gradient(to left top, #fff, rgba(255, 255, 255, 0));
+}
+
+.product:hover img, .product-partition:hover img {
+	transform: scale(1.05);
+}
+
+.product-wrapper-partition img {
+  margin-top: 10px;
 }
