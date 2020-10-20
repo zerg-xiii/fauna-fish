@@ -1,23 +1,28 @@
-.x {
+* {box-sizing: border-box;}
+.product-item {
+  width: 300px;
   text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #F5F5F5;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+/*  float: left;
+*/  display: inline-block;
 }
-
-.x button {
-  font-size: 24px;
-  padding: 10px 20px;
-  margin: 0 20px;
-  border-radius: 16px;
-  color: blue;
+.product-item img {
+  display: block;
+  width: 100%;
 }
-
-.x button:hover {
-  background-color: gray;
+.product-list {
+  background: #fafafa;
+  padding: 15px 0;
 }
-
-.x .selected {
-  background-color: black;
+.product-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
 }
-
-main {
-  font-size: 20px;
+.products {
 }

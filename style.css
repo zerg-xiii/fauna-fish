@@ -35,15 +35,12 @@ nav div {
     left: 41.25%;
     width: 15%;
   }
-
   .lp {
     width: 40%;
   }
-
   .lx {
     width: 20%
   }
-
   nav div a {
     display: inline;
     float: left;
@@ -72,43 +69,44 @@ h1 {
 }
 
 .product-wrapper-partition, .product-wrapper {
-	display: block;
+	display: inline-block;
 	width: 100%;
-	float: left;
-	transition: width .2s;
+  padding: 0;
+  margin: 0;
+/*	float: left;
+*/	transition: width .2s;
   background: White;
 }
 
 @media only screen and (min-width: 450px) {
 	.product-wrapper {
-		width: 50%;
+		width: 49.75%;
 	}
 }
 
 @media only screen and (min-width: 768px) {
 	.product-wrapper {
-		width: 33.333%;
+		width: 33%;
 	}
   .product-wrapper-partition {
-    width: 50%;
+    width: 49.75%; /*asdasd*/
   }
 }
 
 @media only screen and (min-width: 1000px) {
 	.product-wrapper {
-		width: 25%;
+		width: 24.75%;
 	}
 }
 
 .product, .product-partition {
 	display: block;
 	position: relative;
-	background: White;
-	margin: 0 15px 0 0;
+	margin: 0 5px 0 5px;
 	text-decoration: none;
 	color: #474747;
-	z-index: 0;
 	height: 400px;
+  text-align: center;
 }
 
 .product-partition{
@@ -117,6 +115,8 @@ h1 {
 
 .products{
 	list-style: none;
-	margin: 0 -15px 0 0;
-	padding: 0;
+	margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background: White;
+  text-align: center;
 }
