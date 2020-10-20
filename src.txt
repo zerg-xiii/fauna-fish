@@ -1,4 +1,0 @@
-http://seafood.ru/
-https://fauna-fish.by/
-
-file:///C:/Users/locadmin/Documents/GitHub/fauna/index.html
