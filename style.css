@@ -1,3 +1,10 @@
+.back img {
+  width: 32px;
+  margin-top: 6px;
+  position: absolute;
+  left: 32px;
+}
+
 main {
   font-size: 16px;
 }
@@ -99,6 +106,9 @@ h1 {
 	.product-wrapper {
 		width: 24.75%;
 	}
+  .product-wrapper-partition {
+    width: 33%; /*asdasd*/
+  }
 }
 
 .product, .product-partition {
