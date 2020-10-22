@@ -76,7 +76,7 @@ h1 {
   margin-bottom: 60px;
 }
 
-.product-wrapper-partition, .product-wrapper {
+.product-wrapper-partition, .product-wrapper, .product-wrapper-partition-partner {
 	display: inline-block;
 	width: 100%;
   padding: 0;
@@ -97,7 +97,7 @@ h1 {
 	.product-wrapper {
 		width: 33%;
 	}
-  .product-wrapper-partition {
+  .product-wrapper-partition, .product-wrapper-partition-partner {
     width: 49.75%; /*asdasd*/
   }
 }
@@ -106,7 +106,7 @@ h1 {
 	.product-wrapper {
 		width: 24.75%;
 	}
-  .product-wrapper-partition {
+  .product-wrapper-partition-partner {
     width: 33%; /*asdasd*/
   }
 }
@@ -138,7 +138,7 @@ h1 {
   padding-top: 40px;
 }
 
-.product-wrapper-partition img {
+.product-wrapper-partition img, .product-wrapper-partition-partner img {
   height: 200px;
   max-width: 90%;
   margin: 10px 10px 0px 10px;
