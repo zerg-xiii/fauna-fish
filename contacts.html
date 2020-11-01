@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title></title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style_reply.css">
 	</head>
   <body>
 		<header>
@@ -33,11 +34,31 @@
 				<p>приемная: + 375-177-76-61-91</p>
 				<p>факс: + 375-177-76-61-90</p>
 				<p>Отдел сбыта:  8-029- 348-92-47</p>
-				<p><b>E-mail:</b> admin@fauna-fish.by</p>
+				<p><b>E-mail:</b> info@fauna-fish.by</p>
 			</div>
-			<div>
-				<script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/5f9e7f0adfc5aeb1ae95d3f6/?iframe=1" frameborder="0" name="ya-form-5f9e7f0adfc5aeb1ae95d3f6" width="650"></iframe>
-			</div>
+
+			<form action="https://formspree.io/f/mnqovvgv" method="POST">
+			  <label class="name">
+			    <p>Ваше ФИО (обязательно):</p>
+			    <input type="text" name="Имя">
+			  </label>
+				<label class="name">
+					<p>Ваш телефон:</p>
+			    <input type="text" name="Номер телефона">
+			  </label>
+				<label class="email">
+					<p>Ваш e-mail (обязательно):</p>
+			    <input type="text" name="Адрес электронной почты">
+			  </label>
+			  <label class="msg">
+			    <p>Ваш отзыв:</p>
+			    <textarea name="Отзыв"></textarea>
+			  </label>
+				<label class="send">
+			  	<p><button type="submit">Отправить</button></p>
+				</label>
+			</form>
+
 		</main>
   </body>
   <script type="text/javascript" src="script.js"></script>
