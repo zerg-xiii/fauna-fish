@@ -1,4 +1,3 @@
-<meta http-equiv='refresh' content='6; url=https://bloggood.ru'>
 <meta charset="UTF-8" />
 <?php
 if (isset($_POST['name'])) {$name = $_POST['name']; if ($name == '') {unset($name);}}
