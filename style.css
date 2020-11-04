@@ -81,7 +81,7 @@ h1 {
   margin-bottom: 60px;
 }
 
-.product-wrapper-partition, .product-wrapper, .product-wrapper-partition-partner {
+.product-wrapper-partition, .product-wrapper {
 	display: inline-block;
 	width: 100%;
   padding: 0;
@@ -102,7 +102,7 @@ h1 {
 	.product-wrapper {
 		width: 33%;
 	}
-  .product-wrapper-partition, .product-wrapper-partition-partner {
+  .product-wrapper-partition {
     width: 49.75%; /*asdasd*/
   }
 }
@@ -111,7 +111,7 @@ h1 {
 	.product-wrapper {
 		width: 24.75%;
 	}
-  .product-wrapper-partition-partner {
+  .product-wrapper-partition {
     width: 33%; /*asdasd*/
   }
 }
@@ -129,6 +129,7 @@ h1 {
 .product-partition {
   background: White;
   height: 270px;
+  font-size: 20px;
 }
 
 .products, .products-partition {
@@ -147,7 +148,7 @@ h1 {
   background: White;
 }
 
-.product-wrapper-partition img, .product-wrapper-partition-partner img {
+.product-wrapper-partition img {
   height: 200px;
   max-width: 90%;
   margin: 10px 10px 0px 10px;
@@ -180,4 +181,9 @@ h1 {
 
 .product:hover img, .product-partition:hover img {
 	transform: scale(1.05);
+}
+
+.info {
+  margin: 0 10%;
+  font-size: 20px;
 }
