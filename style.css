@@ -62,7 +62,7 @@ nav div {
 
 body {
   background: Gainsboro;
-  font-family: "Calibri", sans-serif;
+  font-family: "Brush Script MT", cursive;
   margin: 0;
   padding: 0;
 }
@@ -94,25 +94,25 @@ h1 {
 
 @media only screen and (min-width: 450px) {
 	.product-wrapper {
-		width: 49.75%;
+		width: 49%;
 	}
 }
 
 @media only screen and (min-width: 768px) {
 	.product-wrapper {
-		width: 33%;
+		width: 32%;
 	}
   .product-wrapper-partition {
-    width: 49.75%; /*asdasd*/
+    width: 49%; /*asdasd*/
   }
 }
 
 @media only screen and (min-width: 1000px) {
 	.product-wrapper {
-		width: 24.75%;
+		width: 24%;
 	}
   .product-wrapper-partition {
-    width: 33%; /*asdasd*/
+    width: 32%; /*asdasd*/
   }
 }
 
