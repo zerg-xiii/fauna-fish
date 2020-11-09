@@ -67,12 +67,12 @@ body {
   padding: 0;
 }
 
-nav div a:visited, nav div A:active, nav div a {
+nav div a:visited, nav div A:active, nav div a, .contacts a:visited, .contacts a:active, .contacts a {
   color: MidnightBlue;
   text-decoration: none;
 }
 
-nav div A:hover {
+nav div A:hover, .contacts a:hover {
   color: SteelBlue;
 }
 
