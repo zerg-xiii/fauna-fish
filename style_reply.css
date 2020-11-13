@@ -6,6 +6,7 @@ form {
   width: 80%;
   border-radius: 6px;
   text-align: center;
+  font-family: Calibri, sans-serif;
 }
 
 input, textarea {
@@ -24,7 +25,6 @@ button {
   width: auto;
   padding: 10px;
   border-radius: 6px;
-  margin-bottom: 10px;
   border: 2px solid #E0E0F3;
   font: Verdana, Geneva, sans-serif;
   background-color: White;
@@ -36,4 +36,8 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 
 button:hover {
   border: 2px solid #C0C0E3;
+}
+
+main {
+  margin: 0 10%
 }

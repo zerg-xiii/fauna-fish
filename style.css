@@ -1,6 +1,13 @@
 .contacts {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+  display: inline-table;
+  vertical-align: top;
+}
+
+.contacts p, .contacts h2 {
+  text-align: justify;
 }
 
 .back img {
@@ -61,8 +68,8 @@ nav div {
 }
 
 @font-face {
- font-family: Brush Script MT; /* Имя шрифта */
- src: url(src/font.otf); /* Путь к файлу со шрифтом */
+ font-family: Brush Script MT;
+ src: url(src/font.otf);
 }
 
 body {
@@ -92,9 +99,7 @@ h1 {
   padding: 0;
   margin: 0;
   margin-top: 10px;
-/*	float: left;
-*/	transition: width .2s;
-/*  background: White;*/
+	transition: width .2s;
 }
 
 @media only screen and (min-width: 450px) {
@@ -117,8 +122,12 @@ h1 {
 		width: 24%;
 	}
   .product-wrapper-partition {
-    width: 32%; /*asdasd*/
+    width: 32.5%; /*asdasd*/
   }
+  .contacts {
+		width: 42%;
+    padding: 0 3%;
+	}
 }
 
 .product, .product-partition {
@@ -190,5 +199,17 @@ h1 {
 
 .info {
   margin: 0 10%;
-  /*font-size: 40px;*/
+  text-align: justify;
+}
+
+.info img{
+  width: 40%;
+  float:left;
+  margin: 7px 7px 7px 0;
+}
+
+.presentation img {
+  width: 90%;
+  text-align: center;
+  margin: 10px 5%;
 }
